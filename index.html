@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>IMC</title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="./images/imc.png" alt="imc logo" width="150px">
+    <h1>Calcule seu IMC (Índice de Massa Corporal</h1>
+
+    <div class="weight-container">
+      <label for="weight">Informe seu peso :</label>
+      <input id="weight" type="number" name="weight">
+    </div>
+
+    <div class="height-container">
+      <label for="height">Informe sua altura :</label>
+      <input id="height" type="number" name="height">
+    </div>
+
+    <button id="calculate">Calcular</button>
+
+    <div class="result">
+      <p class="imc-result"></p>
+      <p class="type-result"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
